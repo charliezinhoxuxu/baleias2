@@ -1,0 +1,94 @@
+body {
+    
+    color:black;
+    background: rgb(201, 30, 30);
+    margin: 0px;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 80px;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(206, 32, 32);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(238, 235, 71);
+
+} 
+
+
+div {
+     margin-right: 20px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 80px;
+  }
+
+  section {
+    background:rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+  
+  /* código omitido */
+  
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .chamada {
+    background: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* código omitido */
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+  /* código omitido */
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 70px;
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+
+}
+
+.categoria h2{
+    color: black;
+    font-size: 16px;
+}
